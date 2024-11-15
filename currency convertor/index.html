@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="heading">
+        <div class="nav"><div id="title">Currency Converter</div>
+        <button class="mode"><span  class="material-symbols-outlined">
+            dark_mode
+            </span></button></div>
+    </header>
+    <main class="dark">
+        <form>
+            <div class="container">
+                
+                <div class="dropdown">
+                    <div class="amnt">
+                        <p>Enter Amount</p>
+                        <input value="1" type="text">
+                </div>
+                <div class="sub">
+                    <div class="from">
+                    <p>From</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/US/shiny/64.png" height="84px" width="84px"/>
+              <select name="from">
+              </select>
+            </div>
+            </div>
+            <span class="material-symbols-outlined c ">
+                currency_exchange
+                </span>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                      <img src="https://flagsapi.com/IN/shiny/64.png" height="84px" width="84px"/>
+                      <select name="to">
+                      </select>
+                    </div>
+               </div> 
+               </div>      
+                    <div class="result">1USD=80INR</div>
+                    <button class="btn">Get Exchange Rate</button>
+        </form>
+    </main>
+    <script src="j.js"></script>
+    <script src="codes.js"></script>
+</body>
+</html>
